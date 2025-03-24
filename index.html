@@ -15,18 +15,21 @@
         </header>
     
         <main>
-            <form id="poem-generator-form">
-                <input type="text" 
-                    placeholder="Enter topic of the poem" 
-                    autofocus 
-                    required 
-                    autocomplete="off"
-                    class="instructions"
-                    id="user-instructions"
-                />
-                <input type="submit"  class="submitBtn" />
-            </form>
-            <div class="poem-container" id="poem">
+            <div class="form-container">
+                <form id="poem-generator-form">
+                    <input type="text" 
+                        placeholder="Enter topic of the poem" 
+                        autofocus 
+                        required 
+                        autocomplete="off"
+                        class="instructions"
+                        id="user-instructions"
+                    />
+                    <input type="submit"  class="submitBtn" />
+                </form>
+                <div class="hint">i.e. Flowers, Paris, or Cheese</div>
+            </div>
+            <div class="poem-container hidden" id="poem">
             </div>
         </main>
         <footer>This AI project was coded by <a href="https://github.com/esmetranquilino" target="_blank">Esme Tranquilino</a>
